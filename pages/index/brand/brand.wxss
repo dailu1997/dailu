@@ -1,1 +1,4 @@
 /* pages/index/brand/brand.wxss */
+.image {
+    width: 750rpx;
+}

@@ -2,7 +2,7 @@
 <view class='header'>
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
-  <block wx:for="{{imgUrls}}" wx:key="*this">
+  <block wx:for="{{imgUrls}}" wx:key="">
     <swiper-item>
       <image src="{{item.img}}" class="slide-image" />
     </swiper-item>
@@ -13,7 +13,7 @@
   <view class="news-left">
       <image src="../../static/tabbar/category@selected.png" />
       <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
-      <block wx:for="{{msgList}}" wx:key="*this">
+      <block wx:for="{{msgList}}" wx:key="">
         <!-- <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate"> -->
           <swiper-item >
             <view class="swiper_item" bindtap="click" data-id="{{item.index}}">{{item.title}}</view>
