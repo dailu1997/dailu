@@ -1,0 +1,74 @@
+/* pages/index/register/register.wxss */
+.width {
+    width: 702rpx;
+}
+.full-name {
+    border: 1px solid #ccc;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin: 20rpx 24rpx;
+    padding: 0 48rpx;
+    box-sizing: border-box;
+}
+.name {
+    width: 400rpx;
+    height: 60rpx;
+    float:right;
+    line-height: 60rpx;
+    padding-left: 40rpx;
+    box-sizing: border-box;
+}
+
+radio{
+    width: 38rpx;
+}
+ 
+radio .wx-radio-input{
+    border-radius: 50%; 
+    width: 28rpx;
+    height: 28rpx;
+}
+ 
+ .radio-group {
+   float: right;
+   margin-right: 
+ }
+/* 选中后的样式 （可根据设计稿需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+    border-radius: 50%;
+    width: 44rpx; 
+    height: 44rpx; 
+    line-height: 44rpx;
+    text-align: center;
+    font-size: 26rpx; /* 对勾大小 26rpx */
+    color:#fff; /* 对勾颜色 */
+    background: #2facff;
+    border-color: #2facff;
+}
+.apartment {
+  width: 702rpx;
+  height: 174rpx;
+  border: 1px solid #ccc;
+  margin: auto;
+}
+.apartment {
+
+}
+.apartment text {
+  font-size: 12px;
+  line-height: 40rpx;
+  display:inline-block;
+  text-align: center;
+  margin-left:28rpx; 
+  width: 124rpx;
+  height: 40rpx;
+  border: 1px solid #ccc;
+}
+.demand {
+  width: 702rpx;
+  height: 290rpx;
+  margin: 0 auto;
+  padding: 24rpx;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/news/news",
+    "pages/index/brand/brand",
+    "pages/index/building/building",
+    "pages/index/register/register",
+    "pages/index/home/home",
+    "pages/index/DIY/DIY",
+    "pages/my/my",
+    "pages/Consultation/Consultation",
+    "pages/activity/activity"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "三立·逸丰国际",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9a9a9a",
+    "selectedColor": "#9a9a9a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home@selected.png"
+      },
+      {
+        "pagePath": "pages/Consultation/Consultation",
+        "text": "活动",
+        "iconPath": "/static/tabbar/category.png",
+        "selectedIconPath": "/static/tabbar/category@selected.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "咨询",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my@selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my@selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

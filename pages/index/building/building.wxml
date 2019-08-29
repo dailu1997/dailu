@@ -1,0 +1,2 @@
+<!--pages/index/building/building.wxml-->
+<text>pages/index/building/building.wxml {{id}}</text>

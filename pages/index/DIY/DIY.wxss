@@ -1,0 +1,13 @@
+/* pages/index/DIY/DIY.wxss */
+.file {
+    width: 750rpx;
+    height: 448rpx;
+    border: 1px solid #ccc;
+}
+button {
+  width: 562rpx;
+  margin: 60rpx auto;
+  background-color: skyblue;
+  color: #fff;
+  text-align: center;
+}

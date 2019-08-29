@@ -1,0 +1,255 @@
+/**index.wxss**/
+.header swiper {
+  width:750rpx;
+  height:320rpx;
+}
+.width {
+  width:702rpx;
+}
+.header swiper image {
+  width:750rpx;
+  height:320rpx;
+}
+.news {
+  margin:24rpx;
+  width:702rpx;
+  height:100rpx;
+  background-color:red;
+  text-align:center;
+}
+.news-left {
+  margin-left:68rpx;
+  width:300rpx;
+  height:100rpx;
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.news image {
+  width:48rpx;
+  height:48rpx;
+}
+.news-left text {
+  display:block;
+  margin-left:12rpx;
+}
+.news-right {
+  float:right;
+  width:300rpx;
+  height:100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.body {
+  overflow: hidden;
+  width:702rpx;
+  margin:24rpx;
+}
+.guo-left {
+  float:left;
+}
+.sanli {
+  width:352rpx;
+  height:664rpx;
+}
+.guo-right {
+  float:right;
+  width: 326rpx;
+
+}
+.basic {
+  margin-bottom: 24rpx;
+  float: right;
+  width:326rpx;
+  height:320rpx;
+}
+.information {
+  width:326rpx;
+  height:320rpx;
+}
+.recent {
+  width: 702rpx;
+  height:300rpx;
+  margin-top: 690rpx;
+  margin-bottom: 24rpx;
+}
+.recent image {
+  width: 702rpx;
+  height:300rpx;
+}
+.dingwei {
+  margin-bottom:24rpx;
+  width:702rpx;
+  height:100rpx;
+  background-color:red;
+  text-align:center;
+}
+.dingwei-left {
+  margin-left:68rpx;
+  width:300rpx;
+  height:100rpx;
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.dingwei image {
+  width:48rpx;
+  height:48rpx;
+}
+.dingwei-left text {
+  display:block;
+  margin-left:12rpx;
+}
+.dingwei-right {
+  float:right;
+  width:300rpx;
+  height:100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.register {
+  margin-bottom:24rpx;
+  width: 702rpx;
+  height:180rpx;
+}
+.register image {
+  width:792rpx;
+  height:180rpx;
+}
+.xiaoguo {
+  margin-bottom:24rpx;
+  width:702rpx;
+  height:512rpx;
+}
+.xiaoguo-left {
+  float:left;
+  overflow:hidden;
+}
+.xiaoguo-left image {
+  width:352rpx;
+  height:512rpx;
+}
+.xiaoguo-right {
+  overflow:hidden;
+  float:right;
+  width: 326rpx;
+}
+.xiaoguo-right image {
+  width:326rpx;
+  height:244rpx;
+}
+.xiaoguo-right image:nth-child(1) {
+  margin-bottom:16rpx;
+}
+.interview {
+  width:702rpx;
+  height:240rpx;
+}
+.interview image {
+  width:702rpx;
+  height:240rpx;
+}
+.list {
+  width:702rpx;
+  height:240rpx;
+  float:left;
+  overflow:hidden;
+  margin:24rpx 0;
+}
+.list image {
+  width:338rpx;
+  height:240rpx;
+}
+.list image:nth-child(1) {
+  margin-right:24rpx;
+}
+.img-list {
+  width:702rpx;
+}
+.img-list image {
+  margin-bottom:24rpx;
+  width:702rpx;
+  height:180rpx;
+}
+.share {
+  box-sizing:border-box;
+  border:1px solid #ccc;
+  width:702rpx;
+  height:400rpx;
+  
+}
+.share button {
+  font-size:40rpx;
+  margin-top:20rpx;
+  width:526rpx;
+  height:90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share text:nth-child(1) {
+  margin-top:48rpx;
+  font-size:56rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-txet {
+  width:530rpx;
+  height:30rpx;
+  text-align:center;
+  margin-left:85rpx;
+}
+.share-txet text:nth-child(1) {
+  float:left;
+  font-size:28rpx;
+}
+.share-txet text:nth-child(2) {
+  margin-top:48rpx;
+  font-size:28rpx;
+  float:right;
+}
+.contact {
+  width:702rpx;
+  height:126rpx;
+  margin: 0 auto;
+  line-height: 126rpx;
+  padding-top: 24rpx;
+}
+.contact text:nth-child(1) {
+  float: left;
+  font-size: 40rpx;
+  margin-left: 88rpx;
+}
+.contact text:nth-child(2) {
+  float: right;
+  display: inline-block;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  background-color: skyblue;
+  text-align: center;
+  margin: 32rpx 84rpx 0 0;
+  border-radius: 15rpx;
+}
+.advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:16rpx;
+}
+.swiper_container {
+  height: 45rpx;
+  width: 100%;
+}
+.swiper_item {
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

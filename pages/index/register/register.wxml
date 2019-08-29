@@ -1,0 +1,28 @@
+<!--pages/index/register/register.wxml-->
+<view class="full-name width">
+    <text>姓名 :</text> <input class="name" type="text" placeholder="请输入" name="title"></input>
+</view>
+<view class="full-name width">
+     <label class='item-left color-333 mg-rt10' for='sex'>性别：</label>
+     <radio-group class="item-right radio-group" bindchange="changeSex">
+          <label class="radio" wx:for="{{items}}" wx:key>
+               <radio value="{{item.name}}"  checked="{{item.checked}}"/>{{item.name}}
+          </label>
+     </radio-group>
+</view>
+<view class="full-name width">
+    <text>电话 :</text> <input class="name" type="text" placeholder="请输入" name="title"></input>
+</view>
+<view class="apartment">
+     <view>意向户型</view>
+     <text>一室一厅</text> <text>二室一厅</text> <text>三室一厅</text> <text>三室二·厅</text><text>四室二厅</text> <text>复式</text>
+</view>
+<view class="budget">
+   <view>购房预算 （10 - 1000 万）</view>
+</view>
+<view class="size">
+   <view>购房预算 （10 - 500 m²）</view>
+</view>
+<view class="demand">
+      <text>您的具体需求 :</text> <input class="name" type="text" placeholder="请输入" name="title"></input>
+</view>

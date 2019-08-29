@@ -1,0 +1,7 @@
+<!--pages/index/DIY/DIY.wxml-->
+<view class="file">
+    
+</view>
+<view>
+    <button bindtap='uploadPhoto'>拍照或本地选取图片</button>
+</view>
