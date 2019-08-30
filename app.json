@@ -7,6 +7,8 @@
     "pages/index/register/register",
     "pages/index/home/home",
     "pages/index/DIY/DIY",
+    "pages/index/dingwei/dingwei",
+    "pages/index/zhanting/zhanting",
     "pages/my/my",
     "pages/Consultation/Consultation",
     "pages/activity/activity"

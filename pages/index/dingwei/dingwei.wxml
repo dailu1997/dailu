@@ -1,0 +1,5 @@
+<!--pages/index/dingwei/dingwei.wxml-->
+<!-- <text bindtap="toMap">pages/index/dingwei/dingwei.wxml</text> -->
+<map id="map" longitude="108.9470726926" latitude="34.2155165611" 
+scale="18"  style="width: 100%; height: 1446rpx;" bindtap="click">
+</map>

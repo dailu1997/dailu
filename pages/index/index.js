@@ -132,6 +132,15 @@ Page({
     wx.navigateTo({
       url: 'DIY/DIY',
     })
+  },
+  dingwei:() => {
+    wx.navigateTo({
+      url: 'dingwei/dingwei',
+    })
+  },
+  newsRight:() => {
+    wx.navigateTo({
+      url: 'zhanting/zhanting',
+    })
   }
-  
 })

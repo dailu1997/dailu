@@ -22,7 +22,7 @@
       </block>
     </swiper>
   </view>
-  <view class="news-right">
+  <view class="news-right" bindtap="newsRight">
        <image src="../../static/tabbar/category@selected.png" />
   </view>
 </view>
@@ -48,7 +48,7 @@
       <view class="dingwei-left">
           <text>项目位置</text>
       </view>
-      <view class="dingwei-right">
+      <view class="dingwei-right" bindtap="dingwei">
            <image src="../../static/icon/dingwei.png" />
       </view>
   </view>
