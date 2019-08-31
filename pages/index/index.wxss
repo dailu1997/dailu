@@ -182,7 +182,7 @@
   height:400rpx;
   
 }
-.share button {
+.share .diy {
   font-size:40rpx;
   margin-top:20rpx;
   width:526rpx;
@@ -204,11 +204,12 @@
   text-align:center;
   margin-left:85rpx;
 }
-.share-txet text:nth-child(1) {
+.share-txet .shareLeft {
+  margin-top: 48rpx;
   float:left;
   font-size:28rpx;
 }
-.share-txet text:nth-child(2) {
+.share-txet .shareRight {
   margin-top:48rpx;
   font-size:28rpx;
   float:right;

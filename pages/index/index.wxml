@@ -78,9 +78,9 @@
   </view>
   <view class="share">
     <text>分享给好友</text>
-    <button bindtap="diy">DIY我的个人专属卡片</button>
+    <button bindtap="diy" class="diy">DIY我的个人专属卡片</button>
     <view class="share-txet">
-      <text>我要分享</text> <text>生成卡片</text>
+      <button class="shareLeft" open-type='share'>我要分享</button > <button class="shareRight">生成卡片</button>
     </view>
   </view>
   <view class="contact">
