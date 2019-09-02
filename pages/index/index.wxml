@@ -11,7 +11,7 @@
 </view>
 <view class="news">
   <view class="news-left">
-      <image src="../../static/tabbar/category@selected.png" />
+      <image src="../../static/icon/xiaoxi@2x.png" />
       <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
       <block wx:for="{{msgList}}" wx:key="">
         <!-- <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate"> -->
@@ -23,16 +23,16 @@
     </swiper>
   </view>
   <view class="news-right" bindtap="newsRight">
-       <image src="../../static/tabbar/category@selected.png" />
+       <image src="../../static/icon/58773703.png"/>城市展厅
   </view>
 </view>
 <view class="body">
   <view class="guo-left" bindtap="brand">
-    <image class="sanli" src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" />
+    <image class="sanli" src="../../static/icon/guojiang.png" />
   </view>
   <view class="guo-right">
-    <image class="basic" bindtap="basic" src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" />
-    <image class="information" bindtap="information" src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" />
+    <image class="basic" bindtap="basic" src="../../static/icon/jiben.png" />
+    <image class="information" bindtap="information" src="../../static/icon/xaingmu.png" />
   </view>
   <view class="recent">
     <swiper indicator-dots="{{indicatorDots}}"
@@ -49,40 +49,44 @@
           <text>项目位置</text>
       </view>
       <view class="dingwei-right" bindtap="dingwei">
-           <image src="../../static/icon/dingwei.png" />
+           <image src="../../static/icon/weizhi-tianchong@2x.png" />
       </view>
   </view>
   <view class="register" bindtap="register">
-    <image src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" />
+    <image src="../../static/icon/yixiang.png" />
   </view>
   <view class="xiaoguo">
     <view class="xiaoguo-left" bindtap="xiaoLeft">
-      <image src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" />
+      <text>户型欣赏</text>
+      <image src="../../static/icon/weizi.png" />
     </view>
     <view class="xiaoguo-right">
-      <image bindtap="xiaoTop" src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" />
-      <image bindtap="xiaoBottom" src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" />
+      <image bindtap="xiaoTop" src="../../static/icon/yangban.png" />
+      <image bindtap="xiaoBottom" src="../../static/icon/xiaoguo.png" />
     </view>
   </view>
   <view class="interview" bindtap="interview">
-    <image src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" />
+    <image src="../../static/icon/dashi.png" />
   </view>
   <view class='list'>
-    <image bindtap="listLeft" src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" />
-    <image bindtap="listRight" src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" />
+    <image bindtap="listLeft" src="../../static/icon/loupan.png" />
+    <image bindtap="listRight" src="../../static/icon/xiaoshou.png" />
   </view>
   <view class="img-list">
-    <image bindtap="listTop" src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" />
-    <image bindtap="listMiddle" src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" />
-    <image bindtap="listBottom" src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" />
+    <image bindtap="listTop" src="../../static/icon/zhoubian.png" />
+    <image bindtap="listMiddle" src="../../static/icon/jiedai.png" />
+    <image bindtap="listBottom" src="../../static/icon/yifeng.png" />
   </view>
   <view class="share">
+    <view class='wai'>
     <text>分享给好友</text>
     <button bindtap="diy">DIY我的个人专属卡片</button>
     <view class="share-txet">
-      <text>我要分享</text> <text>生成卡片</text>
+      <text><image style='width：48rpx;height：48rpx' src="../../static/icon/圆角矩形1@2x.png" />我要分享</text> <text><image src="../../static/icon/圆角矩形1拷贝@2x.png" />生成卡片</text>
+    </view>
     </view>
   </view>
+    
   <view class="contact">
     <text>是否主动联系我们</text>
     <text>好的</text>

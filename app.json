@@ -40,8 +40,8 @@
       {
         "pagePath": "pages/activity/activity",
         "text": "咨询",
-        "iconPath": "/static/tabbar/my.png",
-        "selectedIconPath": "/static/tabbar/my@selected.png"
+        "iconPath": "/static/tabbar/zixun.png",
+        "selectedIconPath": "/static/tabbar/zixun@selected.png"
       },
       {
         "pagePath": "pages/my/my",

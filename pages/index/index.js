@@ -3,9 +3,9 @@
 Page({
   data: {
     imgUrls: [
-      { img:'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',index:0},
-      { img:'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',index:1},
-      { img:'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640',index:2}
+      { img:'../../static/icon/banner1@2x.png',index:0},
+      { img:'../../static/icon/banner2@2x.png',index:1},
+      { img:'../../static/icon/banner3@2x.png',index:2}
     ],
 
     indicatorDots: true,

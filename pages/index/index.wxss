@@ -14,7 +14,7 @@
   margin:24rpx;
   width:702rpx;
   height:100rpx;
-  background-color:red;
+  background-color:#bd8b61;
   text-align:center;
 }
 .news-left {
@@ -27,6 +27,7 @@
   justify-content: center
 }
 .news image {
+  margin-right: 24rpx;
   width:48rpx;
   height:48rpx;
 }
@@ -35,6 +36,8 @@
   margin-left:12rpx;
 }
 .news-right {
+  font-size: 30rpx;
+  color:#fff;
   float:right;
   width:300rpx;
   height:100rpx;
@@ -83,11 +86,11 @@
   margin-bottom:24rpx;
   width:702rpx;
   height:100rpx;
-  background-color:red;
+  background-color:#bd8b61;
   text-align:center;
 }
 .dingwei-left {
-  margin-left:68rpx;
+  color:#fff;
   width:300rpx;
   height:100rpx;
   float:left;
@@ -95,9 +98,9 @@
   align-items: center;
   justify-content: center
 }
-.dingwei image {
-  width:48rpx;
-  height:48rpx;
+.dingwei image:nth-child(1) {
+  width:550rpx;
+  height:100rpx;
 }
 .dingwei-left text {
   display:block;
@@ -105,11 +108,15 @@
 }
 .dingwei-right {
   float:right;
-  width:300rpx;
-  height:100rpx;
+  width:48rpx;
+  height:48rpx;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+.dingwei-right image {
+  width: 48rpx;
+  height: 48rpx;
 }
 .register {
   margin-bottom:24rpx;
@@ -126,8 +133,16 @@
   height:512rpx;
 }
 .xiaoguo-left {
+  position: relative;
   float:left;
   overflow:hidden;
+}
+.xiaoguo-left text {
+  font-size: 36rpx;
+  margin-left: 28rpx;
+  position: absolute;
+  float: left;
+  opacity: .5;
 }
 .xiaoguo-left image {
   width:352rpx;
@@ -176,20 +191,22 @@
   height:180rpx;
 }
 .share {
+  color: #fff;
+  position: relative;
   box-sizing:border-box;
   border:1px solid #ccc;
   width:702rpx;
   height:400rpx;
-  
+  background: linear-gradient(to top right, #bd8b61 , #e3b996)
 }
 .share button {
   font-size:40rpx;
   margin-top:20rpx;
   width:526rpx;
   height:90rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #FFF;
+  background-color: #eccaad;
+  padding-top: 20rpx;
 }
 .share text:nth-child(1) {
   margin-top:48rpx;
@@ -248,8 +265,16 @@
   width: 100%;
 }
 .swiper_item {
+  color: #fff;
   font-size: 30rpx;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.wai {
+  margin-top: 15rpx;
+  margin-left: 14rpx;
+  width: 667rpx;
+  height: 365rpx;
+  border: 1px solid #fff;
 }
