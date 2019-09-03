@@ -80,9 +80,9 @@
   <view class="share">
     <view class='wai'>
     <text>分享给好友</text>
-    <button bindtap="diy">DIY我的个人专属卡片</button>
+    <button bindtap="diy" class="diy">DIY我的个人专属卡片</button>
     <view class="share-txet">
-      <text><image style='width：48rpx;height：48rpx' src="../../static/icon/圆角矩形1@2x.png" />我要分享</text> <text><image src="../../static/icon/圆角矩形1拷贝@2x.png" />生成卡片</text>
+      <text>我要分享</text> <text>生成卡片</text>
     </view>
     </view>
   </view>
