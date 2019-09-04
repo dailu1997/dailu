@@ -1,5 +1,4 @@
 <!--pages/index/brand/brand.wxml-->
-<text>pages/index/brand/brand.wxml {{id}} {{name}}</text>
 <view bindtap="imgClick" class="ss">
-    <image   class="image" src="{{img}}" alt="" />
+    <image   class="image" src="{{img}}" alt="" mode="widthFix" />
 </view>

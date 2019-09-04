@@ -17,33 +17,26 @@
   background-color:#bd8b61;
   text-align:center;
 }
-.news-left {
-  margin-left:68rpx;
-  width:300rpx;
-  height:100rpx;
-  float:left;
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
 .news image {
-  margin-right: 24rpx;
-  width:48rpx;
+  margin-top: 24rpx;
+  margin-right: 60rpx;
+  width:60rpx;
   height:48rpx;
-}
-.news-left text {
-  display:block;
-  margin-left:12rpx;
 }
 .news-right {
   font-size: 30rpx;
   color:#fff;
-  float:right;
-  width:300rpx;
   height:100rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center
+}
+.news-right text {
+  font-size: 40rpx;
+  float: left;
+  line-height: 100rpx;
+  margin-left: 24rpx;
+}
+.news-right image {
+  float: right;
+  line-height: 80rpx;
 }
 .body {
   overflow: hidden;
@@ -98,25 +91,21 @@
   align-items: center;
   justify-content: center
 }
-.dingwei image:nth-child(1) {
-  width:550rpx;
-  height:100rpx;
-}
 .dingwei-left text {
   display:block;
   margin-left:12rpx;
 }
 .dingwei-right {
   float:right;
-  width:48rpx;
-  height:48rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width:300rpx;
+  height:100rpx;
 }
 .dingwei-right image {
-  width: 48rpx;
-  height: 48rpx;
+  float: right;
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  margin-right: 60rpx;
 }
 .register {
   margin-bottom:24rpx;
@@ -133,20 +122,20 @@
   height:512rpx;
 }
 .xiaoguo-left {
-  position: relative;
   float:left;
   overflow:hidden;
 }
-.xiaoguo-left text {
-  font-size: 36rpx;
-  margin-left: 28rpx;
-  position: absolute;
-  float: left;
-  opacity: .5;
+.xiaoguo-left .xinshang {
+   text-align: center;
+   line-height: 75rpx;
+   height: 75rpx;
+   background-color: #bd8b61;
+   color: #fff;
+   margin-bottom:24rpx; 
 }
 .xiaoguo-left image {
   width:352rpx;
-  height:512rpx;
+  height:414rpx;
 }
 .xiaoguo-right {
   overflow:hidden;
@@ -200,43 +189,69 @@
   background: linear-gradient(to top right, #bd8b61 , #e3b996)
 }
 .share .diy {
-  font-size:40rpx;
-  margin-top:20rpx;
+  font-size:30rpx;
+  margin: 0 auto;
   width:526rpx;
   height:90rpx;
-  color: #FFF;
-  background-color: #eccaad;
+  color: #ecb482;
+  background-color: #eed2b9;
   padding-top: 20rpx;
 }
-.share text:nth-child(1) {
-  margin-top:48rpx;
+.share .diy image {
+  display: block;
+  margin: 0 auto;
+  width: 100rpx;
+  height: 52rpx;
+}
+.share .diy text {
+  width: 300rpx;
+  height: 50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.share .haoyou {
+  display: block;
+  margin:24rpx 0 24rpx 200rpx;
   font-size:56rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .share-txet {
-  width:530rpx;
+  width:372rpx;
   height:30rpx;
-  text-align:center;
-  margin-left:85rpx;
+  margin: 0 auto;
 }
-.share-txet .shareLeft {
-  margin-top: 48rpx;
+.share-txet image {
+  width: 61rpx;
+  height: 61rpx;
+}
+.share-txet .ineed {
+  margin-top: 38rpx;
   float:left;
   font-size:28rpx;
 }
-.share-txet .shareRight {
-  margin-top:48rpx;
+.share-txet .ineed image {
+  margin: 0 auto;
+  display: block;
+  width: 61rpx;
+  height: 61rpx;
+}
+.share-txet .generate {
+  margin-top:38rpx;
   font-size:28rpx;
   float:right;
 }
-.contact {
-  width:702rpx;
-  height:126rpx;
+.share-txet .generate image {
   margin: 0 auto;
-  line-height: 126rpx;
-  padding-top: 24rpx;
+  display: block;
+  width: 61rpx;
+  height: 61rpx;
+}
+.contact {
+  color: #fff;
+  width:702rpx;
+  height:100rpx;
+  margin: 12rpx auto;
+  line-height: 100rpx;
+  background-color: #bd8b61;
 }
 .contact text:nth-child(1) {
   float: left;
@@ -244,15 +259,14 @@
   margin-left: 88rpx;
 }
 .contact text:nth-child(2) {
-  float: right;
+  margin-left: 100rpx;
   display: inline-block;
   width: 100rpx;
   height: 60rpx;
   line-height: 60rpx;
   color: #fff;
-  background-color: skyblue;
+  background-color: #eed2b9;
   text-align: center;
-  margin: 32rpx 84rpx 0 0;
   border-radius: 15rpx;
 }
 .advertisement {

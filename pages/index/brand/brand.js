@@ -6,9 +6,12 @@ Page({
    */
   data: {
     imgUrls: [
-      { img: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640', index: 0 },
-      { img: 'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640', index: 1 },
-      { img: 'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640', index: 2 }
+      { img: '../../../static/icon/二级页面/gonsijianjie.png', index: 0 },
+      { img: '../../../static/icon/二级页面/jibencanshu.png', index: 1 },
+      { img: '../../../static/icon/二级页面/jibencanshu.png', index: 2 },
+      { img: '../../../static/icon/二级页面/shipinjieshao.png', index: 6  },
+      { img: '../../../static/icon/二级页面/jieshao2.png', index: 6 },
+      { img: '../../../static/icon/二级页面/jieshao3.png', index: 6 },
     ],
     imgArr: [
       'http://bpic.588ku.com/element_origin_min_pic/16/10/30/528aa13209e86d5d9839890967a6b9c1.jpg',
@@ -24,23 +27,60 @@ Page({
   onLoad: function (options) {
     var id = options.id
     var name = options.name
-    if(name == 'huxing') {
+    if(name == '样板间') {
       this.setData({
         img:this.data.imgUrls[0].img
       })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
+    }else if (name=="效果图") {
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
+    } else if (name=="大师访谈") {
+      this.setData({
+        img: this.data.imgUrls[3].img
+      })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
+    }else if (name=="楼盘亮点") {
+      this.setData({
+        img: this.data.imgUrls[4].img
+      })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
     }
     if(id==0) {
       this.setData({
         img:this.data.imgUrls[id].img
       })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
     }else if(id==1){
       this.setData({ 
         img:this.data.imgUrls[id].img
       })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
+    }else if(id==6){
+      this.setData({
+        img: this.data.imgUrls[id].img
+      })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
     }else {
       this.setData({
         img:this.data.imgUrls[id].img
       })
+      wx.setNavigationBarTitle({
+        title: name,
+      }) 
     }
     this.setData({
       id:options.id,

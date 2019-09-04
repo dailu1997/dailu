@@ -60,6 +60,10 @@ Page({
     })
   },
   onLoad: function (options) {
+    var name = options.name
+    wx.setNavigationBarTitle({
+      title: name,
+    }) 
     // 这里请求接口
   },
 });

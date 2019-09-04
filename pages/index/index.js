@@ -14,12 +14,6 @@ Page({
     duration: 1000
   },
   onShow: function (e) {
-    this.setData({
-      msgList: [
-        { title: "多地首套房贷利率上浮 热点城市渐迎零折扣时代",index:0 },
-        { title: "交了20多年的国内漫游费将取消 你能省多少话费？",index:1 },
-        { title: "北大教工合唱团出国演出遇尴尬:被要求给他人伴唱",index:2 }]
-    });
   },
   click:function(e){
     var id = e.currentTarget.dataset.id;
@@ -40,7 +34,7 @@ Page({
   },
   brand:function () {
     wx.navigateTo({
-      url: 'brand/brand?id=0',
+      url: 'brand/brand?id=0&name=公司简介',
       success: function(res){
         console.log(0)
       }
@@ -48,7 +42,7 @@ Page({
   },
   basic:()=>{
     wx.navigateTo({
-      url: 'brand/brand?id=1',
+      url: 'brand/brand?id=1&name=基本参数',
       success: function(res){
         console.log(1)
       }
@@ -56,7 +50,7 @@ Page({
   },
   information:()=>{
     wx.navigateTo({
-      url: 'brand/brand?id=2',
+      url: 'brand/brand?id=2&name=项目概况',
       success: function(res){
         console.log(2)
       }
@@ -85,27 +79,30 @@ Page({
   },
   xiaoLeft:() => {
     wx.navigateTo({
-      url: 'brand/brand?name=huxing',
+      url: 'huxing/huxing?id=3&name=户型欣赏',
     })
   },
   xiaoTop:() => {
     wx.navigateTo({
-      url: 'brand/brand?name=yangban',
+      url: 'brand/brand?id=4&name=样板间',
     })
   },
   xiaoBottom:() => {
     wx.navigateTo({
-      url: 'brand/brand?name=xiaoguo',
+      url: 'brand/brand?id=5&name=效果图',
     })
   },
   interview:() => {
     wx.navigateTo({
-      url: 'brand/brand?name=fangtan',
+      url: 'brand/brand?id=6&name=大师访谈',
+      success: function (res) {
+        console.log(6)
+      }
     })
   },
   listLeft:() => {
     wx.navigateTo({
-      url: 'brand/brand?name=liangdian',
+      url: 'brand/brand?name=楼盘亮点',
     })
   },
   listRight:() => {
@@ -135,12 +132,12 @@ Page({
   },
   dingwei:() => {
     wx.navigateTo({
-      url: 'dingwei/dingwei',
+      url: 'dingwei/dingwei?name=项目位置',
     })
   },
   newsRight:() => {
     wx.navigateTo({
-      url: 'zhanting/zhanting',
+      url: 'zhanting/zhanting?name=城市展厅',
     })
   }
 })

@@ -9,15 +9,16 @@
     "pages/index/DIY/DIY",
     "pages/index/dingwei/dingwei",
     "pages/index/zhanting/zhanting",
+    "pages/index/huxing/huxing",
     "pages/my/my",
     "pages/Consultation/Consultation",
     "pages/activity/activity"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#bd8b61",
     "navigationBarTitleText": "三立·逸丰国际",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#9a9a9a",
