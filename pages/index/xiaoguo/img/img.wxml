@@ -1,0 +1,11 @@
+<!--pages/index/xiaoguo/img/img.wxml-->
+<view class='body'>
+  <view class='images'>
+     <text wx:for='{{navigations}}' wx:key class='navigation {{showid == 0 ? "active" : ""}}' data-index="{{index}}" bindtap='active' >{{item.title}}({{item.num}})</text>
+  </view>
+  <view class='image'>
+  </view>
+  <view class='bottom'>
+     <text>楼盘分享</text> <text>在线咨询</text>
+  </view>
+</view>

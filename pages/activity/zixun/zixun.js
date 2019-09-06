@@ -1,4 +1,4 @@
-// pages/activity/activity.js
+// pages/activity/zixun/zixun.js
 Page({
 
   /**
@@ -12,15 +12,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   wx.setNavigationBarTitle({
-     title: '咨询',
-   })
+    var name = options.name;
+    wx.setNavigationBarTitle({
+      title: name,
+    }) 
   },
-  zixun:() => {
-    wx.navigateTo({
-      url: 'zixun/zixun?&name=置业顾问甲',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

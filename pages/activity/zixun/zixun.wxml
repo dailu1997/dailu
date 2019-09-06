@@ -1,0 +1,10 @@
+<!--pages/activity/zixun/zixun.wxml-->
+<view class='chatBox'>
+  <text>您的专属置业顾问甲为您服务</text>
+  <view class='zhiye'>
+      <view class='touXiang'>
+    
+      </view>
+      <text class='guwen'>置业顾问甲</text>
+  </view>
+</view>

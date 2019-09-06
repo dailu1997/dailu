@@ -1,2 +1,12 @@
 <!--pages/Consultation/Consultation.wxml-->
-<text>pages/Consultation/Consultation.wxml</text>
+<view class='body'>
+   <view class='tuwen'>
+    <text class='text'>致敬中国大时代，消费迈入升级“升级+”，构建高品质生活生态园</text>
+    <view class='xinxi'>
+       <text>置顶</text><text>浏览135</text>
+    </view>
+   </view>
+   <view class='img'>
+    
+   </view>
+</view>

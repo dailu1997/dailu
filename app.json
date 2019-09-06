@@ -10,9 +10,12 @@
     "pages/index/dingwei/dingwei",
     "pages/index/zhanting/zhanting",
     "pages/index/huxing/huxing",
+    "pages/index/xiaoguo/xiaoguo",
+    "pages/index/xiaoguo/img/img",
     "pages/my/my",
     "pages/Consultation/Consultation",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/activity/zixun/zixun"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -29,26 +32,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "/static/tabbar/home.png",
-        "selectedIconPath": "/static/tabbar/home@selected.png"
+        "iconPath": "/static/tabbar/shouye1.png",
+        "selectedIconPath": "/static/tabbar/webwxgetmsgimg.jpg"
       },
       {
         "pagePath": "pages/Consultation/Consultation",
         "text": "活动",
-        "iconPath": "/static/tabbar/category.png",
-        "selectedIconPath": "/static/tabbar/category@selected.png"
+        "iconPath": "/static/tabbar/huodong1.png",
+        "selectedIconPath": "/static/tabbar/huodong2.png"
       },
       {
         "pagePath": "pages/activity/activity",
         "text": "咨询",
-        "iconPath": "/static/tabbar/zixun.png",
-        "selectedIconPath": "/static/tabbar/zixun@selected.png"
+        "iconPath": "/static/tabbar/zixun1.png",
+        "selectedIconPath": "/static/tabbar/zixun2.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "/static/tabbar/my.png",
-        "selectedIconPath": "/static/tabbar/my@selected.png"
+        "iconPath": "/static/tabbar/wode1.png",
+        "selectedIconPath": "/static/tabbar/wode2.png"
       }
     ]
   },

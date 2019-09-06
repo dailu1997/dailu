@@ -1,0 +1,67 @@
+/* pages/index/xiaoguo/img/img.wxss */
+.body {
+  padding: 24rpx;
+  background-color: rgb(31, 47, 48);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.images {
+  border-bottom: 1px solid #ccc;
+}
+.body .navigation  {
+   display: inline-block;
+   padding: 16rpx 30rpx;
+   font-size:26rpx;
+   color: rgb(189, 139, 97)
+}
+.body .active {
+   background-color: rgb(240, 227, 216);
+   color: rgb(167, 125, 89);
+}
+.body .pictures {
+  font-size: 20rpx;
+  padding: 20rpx 0 30rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+.body .pictures .imgs {
+   width: 170rpx;
+   height: 170rpx;
+   background-color: rgb(240, 240, 240);
+   margin-top: 10rpx;
+}
+.body .image {
+  margin-top: 180rpx;
+  margin-bottom: 340rpx;
+  position: relative;
+  top: 0rpx;
+  left: -22rpx;
+  width: 100%;
+  height: 448rpx;
+  background-color: rgb(217, 217, 217)
+}
+.bottom {
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color:rgb(53, 61, 77);
+}
+.bottom text {
+  display: inline-block;
+  width: 260rpx;
+  height: 70rpx;
+  color: #fff;
+  background-color: rgb(199, 162, 138);
+  border-radius: 12rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+.bottom text:nth-child(1) {
+  margin-left: 69rpx
+}
+.bottom text:nth-child(2) {
+  margin-left: 87rpx
+} 

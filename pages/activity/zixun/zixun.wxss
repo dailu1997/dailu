@@ -1,0 +1,28 @@
+/* pages/activity/zixun/zixun.wxss */
+.chatBox {
+  padding: 0 18rpx 0 18rpx;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.chatBox text:nth-child(1) {
+  text-align: center;
+  font-size: 14rpx;
+}
+.zhiye {
+  overflow: hidden;
+  text-align: center;
+}
+.touXiang {
+  margin-right: 15rpx;
+  float: left;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: #e135;
+} 
+.guwen {
+  float: left;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}

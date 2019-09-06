@@ -1,2 +1,12 @@
 <!--pages/activity/activity.wxml-->
-<text>pages/activity/activity.wxml</text>
+<view class='body'>
+   <view class='adviser'>
+     <view class='headPortrait'>
+        
+     </view>
+     <view class='text'>
+       <text>置业顾问甲</text><text>15929665869</text><view>注册时间：2019.03.03</view>
+     </view>
+     <view class='consultation' bindtap='zixun'>咨询</view>
+   </view>
+</view>

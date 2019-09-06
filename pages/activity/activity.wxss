@@ -1,1 +1,43 @@
 /* pages/activity/activity.wxss */
+page {
+  background-color: rgb(244, 244, 244)
+}
+.body {
+  box-sizing: border-box;
+  padding: 19rpx;
+  background-color: rgb(255, 255, 255);
+  margin: 19rpx;
+  border-radius: 2%;
+  overflow: hidden;
+}
+.adviser {
+  overflow: hidden;
+  height: 100rpx;
+  padding: 10rpx;
+}
+.headPortrait {
+  float: left;
+  height: 84rpx;
+  width: 84rpx;
+  border-radius: 50%;
+  background-color: #ff3;
+  margin-right: 15rpx;
+}
+.text {
+  float:left;
+  width: 193rpx;
+  height: 92rpx;
+  font-size: 24rpx;
+}
+.text view {
+  margin-top: 15rpx;
+  font-size: 20rpx;
+}
+.consultation {
+  float: right;
+  padding: 9rpx 20rpx;
+  background-color: rgb(199, 166, 138);
+  color: #fff;
+  border-radius: 10%;
+  margin-top: 20rpx;
+}

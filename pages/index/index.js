@@ -89,7 +89,7 @@ Page({
   },
   xiaoBottom:() => {
     wx.navigateTo({
-      url: 'brand/brand?id=5&name=效果图',
+      url: 'xiaoguo/xiaoguo?name=效果图',
     })
   },
   interview:() => {

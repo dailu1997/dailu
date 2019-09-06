@@ -1,24 +1,40 @@
-// pages/activity/activity.js
+// pages/index/xiaoguo/xiaoguo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+     navigations:[
+       {title:"效果图",num:10},
+       { title: "实景图", num: 5 },
+       { title: "样板间", num: 6 },
+       { title: "户型图", num: 6 },
+       { title: "周边配套", num: 4 },
+       { title: "工程进度", num: 3 },
+       { title: "证件", num: 3 }
+     ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   wx.setNavigationBarTitle({
-     title: '咨询',
-   })
+      var name = options.name
+      wx.setNavigationBarTitle({
+        title: name,
+      })
   },
-  zixun:() => {
+  active: function (e) {
+    var id = e.currentTarget.dataset.index;
+    console.log(id)
+    this.setData({
+      showId: id
+    });
+  },
+  imgs: () => {
     wx.navigateTo({
-      url: 'zixun/zixun?&name=置业顾问甲',
+      url: 'img/img',
     })
   },
   /**

@@ -1,0 +1,27 @@
+/* pages/index/xiaoguo/xiaoguo.wxss */
+.body {
+  margin: 24rpx;
+}
+.images {
+  border-bottom: 1px solid #ccc;
+}
+.body .navigation  {
+   display: inline-block;
+   padding: 16rpx 30rpx;
+   font-size:26rpx;
+}
+.body .active {
+   background-color: rgb(240, 227, 216);
+   color: rgb(167, 125, 89);
+}
+.body .pictures {
+  font-size: 20rpx;
+  padding: 20rpx 0 30rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+.body .pictures .imgs {
+   width: 170rpx;
+   height: 170rpx;
+   background-color: rgb(240, 240, 240);
+   margin-top: 10rpx;
+}

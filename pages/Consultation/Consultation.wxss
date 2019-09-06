@@ -1,1 +1,39 @@
 /* pages/Consultation/Consultation.wxss */
+page {
+  background-color: rgb(244, 244, 244)
+}
+.body {
+  box-sizing: border-box;
+  padding: 19rpx;
+  background-color: rgb(255, 255, 255);
+  margin: 19rpx;
+  border-radius: 2%;
+  overflow: hidden;
+}
+.body .tuwen {
+  float: left;
+  width: 450rpx;
+}
+.body .tuwen .text{
+   font-size: 30rpx;
+}
+.width {
+    width: 650rpx;
+}
+.xinxi text{
+  font-size: 25rpx;
+}
+.xinxi text:nth-child(1)  {
+  padding: 4rpx 7rpx;
+  border: 1px solid #ccc;
+}
+.xinxi text:nth-child(2) {
+  margin-left: 200rpx;
+  text-align: center;
+}
+.img {
+  float: right;
+  width: 192rpx;
+  height: 134rpx;
+  background-color: #ccc;
+}
