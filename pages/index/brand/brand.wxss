@@ -4,6 +4,4 @@
 }
 .ss {
     width: 750rpx;
-    height: 600rpx;
-    background-color: aqua;
 }

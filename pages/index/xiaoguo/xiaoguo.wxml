@@ -1,7 +1,7 @@
 <!--pages/index/xiaoguo/xiaoguo.wxml-->
 <view class='body'>
   <view class='images'>
-     <text wx:for='{{navigations}}' wx:key class='navigation {{showid == 0 ? "active" : ""}}' data-index="{{index}}" bindtap='active' >{{item.title}}({{item.num}})</text>
+     <text wx:for='{{navigations}}' wx:key class='navigation {{index == showId ? "active" : ""}}' data-index="{{index}}" bindtap='active' >{{item.title}}({{item.num}})</text>
   </view>
   <view class='listImg'>
     <view class='pictures' wx:for='{{navigations}}' wx:key>
