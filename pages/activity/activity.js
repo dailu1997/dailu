@@ -21,6 +21,11 @@ Page({
       url: 'zixun/zixun?&name=置业顾问甲',
     })
   },
+  huifu:function () {
+    wx.navigateTo({
+      url: 'zixun/zixun?&name=客户昵称',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

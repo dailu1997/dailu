@@ -7,11 +7,24 @@ Page({
       { img:'../../static/icon/banner2@2x.png',index:1},
       { img:'../../static/icon/banner3@2x.png',index:2}
     ],
-
+    ident:2,
     indicatorDots: true,
     autoplay: true,
     interval: 5000,
     duration: 1000
+  },
+  onLoad:function (options) {
+    // wx.request({
+
+    //   url: 'https://sxzztc.com',
+
+    //   success: function (res) {
+
+    //     console.log(res) //打印返回值的access_token，这里不用Json解析直接一步一步.（点），如果是数组呢？
+
+    //   }
+
+    // })
   },
   onShow: function (e) {
   },
@@ -138,6 +151,11 @@ Page({
   newsRight:() => {
     wx.navigateTo({
       url: 'zhanting/zhanting?name=城市展厅',
+    })
+  },
+  dengji:() => {
+    wx.navigateTo({
+      url: 'dengji/dengji?name=来访登记',
     })
   }
 })

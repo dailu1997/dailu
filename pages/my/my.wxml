@@ -1,22 +1,130 @@
-<!--pages/my/my.wxml-->
-<view class='weiGuan'>
-  <view class='gather'>
-  <view class='wei'><image src='../../static/icon/weiguan.gif'/></view><text>围观人数 ： 656</text>
+<!--客户端-->
+<view class='Customer none'>
+  <view class='weiGuan'>
+    <view class='gather'>
+      <view class='wei'>
+        <image src='../../static/icon/weiguan.gif' />
+      </view>
+      <text>围观人数 ： 656</text>
+    </view>
+    <view class='touXiang'></view>
   </view>
-   <view class='touXiang'></view>
+  <view class='share'>
+    <view class='wei'>
+      <image src='../../static/icon/myshare.gif' />
+    </view>
+    <text>我的分享 ： 49</text>
+    <input placeholder="搜索昵称/电话" class='search'></input>
+    <image class='searchImg' src='../../static/icon/search.gif' />
+    <view class='jianjie'>
+      <view class='tou left'>
+        <image src='../../static/icon/nicheng.gif'></image>
+      </view>
+      <view class='wenzi left'>
+        <text>昵称</text>
+        <text>15929665869</text>
+      </view>
+      <text class='shijian right'>注册时间：2019.09.03</text>
+    </view>
+  </view>
+  <view class='us' bindtap='us'>
+    <image class='left' src='../../static/icon/we.gif'></image>联系我们
+    <image class='right' src='../../static/icon/right.gif'></image>
+  </view>
+  <text class='guang'>技术支持：西安鼎信达网络科技</text>
 </view>
-<view class='share'>
-   <view class='wei'><image src='../../static/icon/myshare.gif'/></view><text>我的分享 ： 49</text> <input placeholder="搜索昵称/电话" class='search'></input> <image class='searchImg' src='../../static/icon/search.gif' />
-   <view class='jianjie'>
-     <view class='tou left'><image src='../../static/icon/nicheng.gif'></image></view>
-   <view class='wenzi left'>
-     <text>昵称</text>
-     <text>15929665869</text>
+<!-- 置业顾问端 -->
+<view class='adviser '>
+  <view class='top'>
+
+  </view>
+  <view class='guwen'>
+    <view class='guwenX left'>
+      <image src='../../static/icon/guwentou.gif'></image>
+    </view>
+    <view class='xinxi left'>
+      <text>李富贵</text>
+      <text>15926995469</text>
+    </view>
+  </view>
+  <view class='weiGuan tuo'>
+    <image class='wei' src='../../static/icon/guwen.gif'></image>
+    <text bindtap='tuoke'>我的拓客 ＞</text>
+    <view class='tongji right'>
+      <text>围观</text>6
+      <text>注册</text>3
+    </view>
+    <view class='tubiao'>
+      <view class='first'>
+        <text>今日</text>
+        <text>本周</text>
+        <text>本月</text>
+        <text class='mei'>本年</text>
+      </view>
+      <view class='second'>
+        <view>
+          <text>围观</text>
+          <text>6</text>
+        </view>
+        <view>
+          <text>注册</text>
+          <text>3</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='down'>
+  </view>
+</view>
+<!-- 置业顾问下标 -->
+<view class='xiabiao none'>
+  <view>分享楼盘</view>
+  <view>生成海报</view>
+  <view id='wu'>我的邀请码</view>
+</view>
+
+<!-- 超级管理员 -->
+<view class='super '>
+  <view class='superT'>
+    <image class='left' src="../../static/icon/guwentou.gif"></image>
+    <view class='left geren'>
+      <view>李老爷</view>
+      <view>15329695869</view>
+    </view>
+  </view>
+  <view class='list' bindtap='myke'>
+   <view class='left middle'>
+    <image src='../../static/icon/wodetuoke.gif'></image>
+     <text>我的拓客</text>
    </view>
-   <text class='shijian right'>注册时间：2019.09.03</text>
+     <image class='list-right' src='../../static/icon/right.gif'></image>
+  </view>
+  <view class='list' bindtap="news">
+   <view class='left middle'>
+    <image src='../../static/icon/news.gif'></image>
+     <text>消息管理</text>
    </view>
+     <image class='list-right' src='../../static/icon/right.gif'></image>
+  </view>
+  <view class='list' bindtap='administrators'>
+   <view class='left middle'>
+    <image src='../../static/icon/guanli.gif'></image>
+     <text>拓客管理</text>
+   </view>
+     <image class='list-right' src='../../static/icon/right.gif'></image>
+  </view>
+  <view class='list' bindtap='trajectory'>
+   <view class='left middle'>
+    <image src='../../static/icon/guiji.gif'></image>
+     <text>拓客轨迹</text>
+   </view>
+     <image class='list-right' src='../../static/icon/right.gif'></image>
+  </view>
+  <view class='list' bindtap='list'>
+   <view class='left middle'>
+    <image src='../../static/icon/we.gif'></image>
+     <text>联系我们</text>
+   </view>
+     <image class='list-right' src='../../static/icon/right.gif'></image>
+  </view>
 </view>
-<view class='us' bindtap='us'>
-  <image class='left' src='../../static/icon/we.gif'></image>联系我们 <image class='right' src='../../static/icon/right.gif'></image>
-</view>
-<text class='guang'>技术支持：西安鼎信达网络科技</text>

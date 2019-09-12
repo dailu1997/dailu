@@ -9,17 +9,19 @@ image {
 .left {
   float: left;
 }
-
+.none {
+  display: none;
+}
 .right {
   float: right;
 }
 
 .weiGuan {
   width: 713rpx;
-  height: 169rpx;
+  
   margin: 20rpx auto;
   background-color: #fff;
-  border-radius: 2%;
+  border-radius: 10rpx;
   padding: 30rpx;
   box-sizing: border-box;
 }
@@ -28,7 +30,7 @@ image {
   display: inline-block;
   width: 37rpx;
   height: 36rpx;
-  margin-right: 30rpx;
+  margin-right: 30rpx; 
 }
 
 .wei image {
@@ -56,7 +58,7 @@ image {
   width: 713rpx;
   margin: 0 auto 20rpx;
   background-color: #fff;
-  border-radius: 2%;
+  border-radius: 10rpx;
   padding: 30rpx;
   box-sizing: border-box;
 }
@@ -67,14 +69,14 @@ image {
   height: 50rpx;
   position: relative;
   border: 1px solid #ccc;
-  padding: 12rpx;
+  padding-left: 10rpx;
   box-sizing: border-box;
   font-size: 18rpx;
 }
 
 .searchImg {
   position: absolute;
-  top: 247rpx;
+  top: 242rpx;
   left: 654rpx;
   width: 30rpx;
   height: 30rpx;
@@ -112,7 +114,7 @@ image {
   width: 713rpx;
   margin: 0 auto 20rpx;
   background-color: #fff;
-  border-radius: 2%;
+  border-radius: 10rpx;
   padding: 30rpx;
   box-sizing: border-box;
 }
@@ -133,4 +135,147 @@ image {
   margin: 0 auto;
   width: 300rpx;
   color: #999999;
+}
+.top {
+  width: 100%;
+  height: 130rpx;
+  background-color: #bd8b61;
+}
+.adviser {
+  position: relative;
+}
+.guwen {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 713rpx;
+  height: 202rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 15rpx 30rpx;
+  box-sizing: border-box;
+  
+}
+.guwenX {
+  margin-right: 10rpx;
+}
+.guwenX image {
+  width: 180rpx;
+  height: 170rpx;
+}
+.xinxi text {
+   display: block;
+   margin-top: 10rpx;
+}
+.xinxi {
+  margin-top: 20rpx;
+}
+.tuo {
+  margin-top: 112rpx;
+  height: 300rpx;
+  font-size: 28rpx;
+  font-family: 微软雅黑;
+}
+.tubiao {
+  width: 300rpx;
+  margin: 40rpx auto;
+  margin-bottom: 0rpx;
+}
+.first text{
+   margin-right: 38rpx;
+   font-size: 25rpx;
+   color: #d5b9a7;
+}
+.tubiao .first  .mei {
+  margin: 0;
+}
+.second {
+  width: 140rpx;
+  margin: 30rpx auto 15rpx;
+}
+.second view {
+  display: inline-block;
+}
+.second view:nth-child(1) {
+  margin-right: 29rpx;
+}
+.second view text {
+  display: block;
+}
+.second view text:nth-child(2) {
+  margin-left: 17rpx;
+}
+.xiabiao {
+  position: absolute;
+  bottom: 20rpx;
+  left: 30rpx;
+  width: 692rpx;
+}
+.xiabiao view {
+  padding: 20rpx 60rpx;
+  background-color: #df9282;
+  font-size: 27rpx;
+  display: inline-block;
+  margin-right: 7rpx;
+  color: #fff;
+  border-radius: 3%;
+}
+.down {
+  width: 100%
+}
+#wu {
+  margin: 0;
+}
+.superT {
+  width: 710rpx;
+  height: 200rpx;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius:10rpx; 
+  padding:15rpx;
+  box-sizing: border-box; 
+}
+.superT image {
+  width: 180rpx;
+  height: 170rpx;
+} 
+.geren {
+  margin-left: 15rpx;
+  font-size: 32rpx;
+  line-height: 80rpx;
+}
+.list {
+  overflow: hidden;
+  font-size: 30rpx;
+  width: 710rpx;
+  padding: 30rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.middle image {
+  
+} 
+.list text {
+  line-height: 30rpx;
+}
+.list image {
+  width: 38rpx;
+  height: 33rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.list  .list-right {
+  float: right;
+  width: 16rpx;
+  height: 33rpx;
+  line-height: 30rpx;
 }

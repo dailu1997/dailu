@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class='header'>
+<view class='header '>
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
   <block wx:for="{{imgUrls}}" wx:key="">
@@ -9,10 +9,8 @@
   </block>
 </swiper>
 </view>
-<view class="news">
-  <view class="news-right" bindtap="newsRight">
-       <text>城市展厅</text><image src="../../static/icon/58773703.jpg"/>
-  </view>
+<view class="news" bindtap="newsRight">
+  <image src='../../static/icon/zhanting.png'></image>
 </view>
 <view class="body">
   <view class="guo-left" bindtap="brand">
@@ -32,17 +30,18 @@
       </block>
     </swiper>
   </view>
-  <view class="dingwei">
-      <view class="dingwei-left">
-          <text>项目位置</text>
-      </view>
-      <view class="dingwei-right" bindtap="dingwei">
-           <image src="../../static/icon/weizhi-tianchong@2x.png" />
-      </view>
+  <view class="dingwei" bindtap="dingwei">
+      <image src='../../static/icon/weizhi.png'></image>
   </view>
-  <view class="register" bindtap="register">
+  <!-- 管理员设置权限 -->
+  <view class="register" wx:if="{{ident == 1}}" bindtap="register">
     <image src="../../static/icon/yixiang.png" />
   </view>
+  <!-- 来访登记 -->
+  <view class="register" wx:if="{{ident != 1}}" bindtap="list">
+    <image src="../../static/icon/zhoubian.png" />
+  </view>
+
   <view class="xiaoguo">
     <view class="xiaoguo-left" bindtap="xiaoLeft">
       <view class='xinshang'>户型欣赏</view>
@@ -60,8 +59,11 @@
     <image bindtap="listLeft" src="../../static/icon/loupan.png" />
     <image bindtap="listRight" src="../../static/icon/xiaoshou.png" />
   </view>
+
+ 
   <view class="img-list">
-    <image bindtap="listTop" src="../../static/icon/zhoubian.png" />
+    <image bindtap="dengji" wx:if="{{ident != 1}}" src="../../static/icon/dengji.gif" />
+    <image bindtap="listTop" wx:if="{{ident == 1}}" src="../../static/icon/zhoubian.png" />
     <image bindtap="listMiddle" src="../../static/icon/jiedai.png" />
     <image bindtap="listBottom" src="../../static/icon/yifeng.png" />
   </view>

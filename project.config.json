@@ -4,12 +4,13 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
+		"checkInvalidKey": true,
 		"coverView": true
 	},
 	"compileType": "miniprogram",
@@ -40,19 +41,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "pages/index/index",
-					"pathName": "pages/my/we/we",
+					"pathName": "pages/my/administration/gongkechi/gongkechi",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": 1,
 					"name": "pages/index/index",
-					"pathName": "pages/my/we/we",
+					"pathName": "pages/my/my",
 					"query": "",
 					"scene": null
 				}

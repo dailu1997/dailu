@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    
   },
 
   /**
@@ -20,6 +20,36 @@ Page({
      wx.navigateTo({
        url: 'we/we?name=联系我们',
      })
+  },
+  tuoke:() => {
+    wx.navigateTo({
+      url: 'zhiye/zhiye?name=我的拓客',
+    })
+  },
+  myke:function () {
+    wx.navigateTo({
+      url: 'tuoke/tuoke?name=我的拓客',
+    })
+  },
+  news:function () {
+    wx.navigateTo({
+      url: 'news/news?name=消息管理',
+    })
+  },
+  administrators:function () {
+    wx.navigateTo({
+      url: 'administration/administration?name=拓客管理',
+    })
+  },
+  trajectory:function () {
+    wx.navigateTo({
+      url: 'trajectory/trajectory?name=拓客轨迹',
+    })
+  },
+  list:function(){
+    wx.navigateTo({
+      url: 'we/we?name=联系我们&id=超级管理员',
+    })
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

@@ -18,10 +18,8 @@
   text-align:center;
 }
 .news image {
-  margin-top: 24rpx;
-  margin-right: 60rpx;
-  width:60rpx;
-  height:48rpx;
+  width:702rpx;
+  height:100rpx;
 }
 .news-right {
   font-size: 30rpx;
@@ -84,6 +82,10 @@
   height:100rpx;
   background-color:#bd8b61;
   text-align:center;
+}
+.dingwei image {
+  width: 702rpx;
+  height: 100rpx;
 }
 .dingwei-left {
   color:#fff;
@@ -295,4 +297,10 @@
   width: 667rpx;
   height: 365rpx;
   border: 1px solid #fff;
+}
+.laifang {
+  margin-bottom:24rpx;
+  width:702rpx;
+  height:180rpx;
+  overflow: hidden;
 }
